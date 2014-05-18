@@ -1,0 +1,31 @@
+{
+    "name": "minakov/video-grabber",
+    "type": "library",
+    "description": "Retrieve video descriptions from different sources.",
+    "homepage": "https://github.com/minakov/video-grabber",
+    "license": "Free",
+    "authors": [
+        {
+            "name": "Vladimir Minakov",
+            "email": "minakov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/minakov/video-grabber.git"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "VideoGrabber": "library"
+        }
+    },
+    "minimum-stability": "dev"
+}
